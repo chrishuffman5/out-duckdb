@@ -8,7 +8,7 @@ A PowerShell module for exporting complete database schemas and data to DuckDB f
 
 ```powershell
 # Navigate to the module directory
-cd C:\Users\chris\Github\out-duckdb
+cd $env:userprofile\Github\out-duckdb
 
 # Install required Python packages
 pip install -r requirements.txt
